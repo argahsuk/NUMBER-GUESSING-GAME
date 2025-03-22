@@ -71,6 +71,9 @@ h1{
     background: linear-gradient(135deg, #89f7fe, #66a6ff);
     box-shadow: 0px 0px  15px white;
 }
+.contacts,.contacts a{
+ color: white;
+}
 
 @media (max-width:450px) and (max-height:950px){
     h1{
