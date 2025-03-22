@@ -1,0 +1,111 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    /* background: linear-gradient(135deg, #89f7fe, #66a6ff); */
+    background-color: rgb(69, 69, 69);
+    overflow-x: hidden;
+}
+h1{
+    color: whitesmoke;
+    position: relative;
+    text-align: center;
+}
+#numberOfGuess{
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 3vh;
+    left:1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.numberOfGuesstwo{
+    font-size: large;
+    font-weight: 800;
+    color: white;
+}
+#container{
+    border: .2vw black solid;
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    left: 40vw;
+    top: 12vh;
+    align-content: center;
+    background-color: #29e5f6;
+    border-radius: 10vh;
+    box-shadow: 0px 0px 25px rgb(170, 97, 249);
+    overflow-x: hidden;
+}
+.one{
+    position: relative;
+    left: 3vw;
+    border: .2vh white solid;
+    border-radius: 2vh;
+    background-color: #c49b9b;
+}
+.one:hover{
+    box-shadow: 0px 0px  15px black;
+}
+#btn{
+    position: relative;
+    left:8vw ;
+    top: 1.7vh;
+}
+#op{
+    
+    border: .2vw solid black;
+    width: 35vw;
+    height: 35vh;
+    position: relative;
+    top: 24vh;
+    left:32vw;
+    font-weight: bold;
+    font-size: large;
+    align-content: center;
+    text-align: center;
+    border-radius:19vh ;
+    color: rgb(161, 3, 169);
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    box-shadow: 0px 0px  15px white;
+}
+
+@media (max-width:450px) and (max-height:950px){
+    h1{
+        color: whitesmoke;
+        left: -30px;
+        position: relative;
+        /* text-align: center;   */
+    }
+    #container{
+        border: .2vw black solid;
+        width: 40vw;
+        height: 20vh;
+        position: relative;
+        left: 20vw;
+        top: 6vh;
+        align-content: center;
+        background-color: #29e5f6;
+        border-radius: 10vh;
+        box-shadow: 0px 0px 25px rgb(170, 97, 249);
+        overflow-x: hidden;
+    }
+    #op{
+        border: .2vw solid black;
+        width: 35vw;
+        height: 25vh;
+        position: relative;
+        top: 10vh;
+        left:22vw;
+        font-weight: bold;
+        font-size: large;
+        align-content: center;
+        text-align: center;
+        border-radius:19vh ;
+        color: rgb(161, 3, 169);
+        background: linear-gradient(135deg, #89f7fe, #66a6ff);
+        box-shadow: 0px 0px  15px white;
+    }
+}
