@@ -74,6 +74,10 @@ h1{
 .contacts,.contacts a{
  color: white;
 }
+.contacts{
+    position: relative;
+    top: 8vh;
+}
 
 @media (max-width:450px) and (max-height:950px){
     h1{
